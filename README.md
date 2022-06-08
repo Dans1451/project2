@@ -10,3 +10,5 @@ This project’s objective was to create a database of all Magic The Gathering c
 
 Data source 1- https://scryfall.com/docs/api - json file,
 Data source 2- https://mtgjson.com/ - csv files
+
+deleted this later
