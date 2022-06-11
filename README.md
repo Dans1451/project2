@@ -10,6 +10,10 @@ This project’s objective was to create a database of all Magic The Gathering c
 Data source 1- https://scryfall.com/docs/api - json file,
 Data source 2- https://mtgjson.com/ - csv files
 
+### Usage
+The Scryfall JSON file is in a compressed folder because it was to big to upload normally. So when beginning this project you must extract the JSON from its compressed folder. Following there we set up the MongoDB client and started to clean the data. You can use Pandas to delete any redundant information between the cards.csv and the Scryfall.json sources. When you are ready to load the database into MongoDB the database must be called Mtg_Cards and collections must be named 
+MTG_Cards.
+
 ### Extract
 * We started by extracting a json file from Scryfall api website 6/6/2022.
 * For our second data source we found MTGjson through kaggle and scrape card information to obtain a csv file 6/6/2022.
