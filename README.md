@@ -13,7 +13,7 @@ Data source 2- https://mtgjson.com/ - csv files
 ### Extract
 * We started by extracting a json file from Scryfall api website 6/6/2022.
 * For our second data source we found MTGjson through kaggle and scrape card information to obtain a csv file 6/6/2022.
-* Some issues we had in this stage included the json file being to big to upload into GitHub so we compressed the file then uploaded it.
+* Some issues we had in this stage included the json file being to big to upload into GitHub so we compressed the file then uploaded it. When extracting the json file you must extract the file from the compressed folder.
 
 ### Transform
 * We used Pandas to clean the data and make it more manageable. 
