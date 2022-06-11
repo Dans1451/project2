@@ -20,13 +20,12 @@ MTG_Cards.
 * Some issues we had in this stage included the json file being to big to upload into GitHub so we compressed the file then uploaded it. When extracting the json file you must extract the file from the compressed folder.
 
 ### Transform
-* We used Pandas to clean the data and make it more manageable. 
+* We used Pandas to clean remove unnecessary columns, combine teh datasets and clean null values
 * We used Pandas to remove any redundant information between the data sources
-* We used Pandas to merge the data into one table
 
 ### Load
-* Load the final dataframe into MongoDB 
 * We took a sample of 100 cards from the dataframe before uploading it MongoDB.
+* Load the final dataframe into MongoDB useing PyMongo
 * Some issues we faced during this stage was that the dataframe was to large to upload into MongoDB. Dan took sample of the dataframe and then created a loop to add a card one by one into the database.
 
 ### Results
