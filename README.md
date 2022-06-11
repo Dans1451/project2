@@ -23,7 +23,7 @@ Data source 2- https://mtgjson.com/ - csv files
 ### Load
 * Load the final dataframe into MongoDB 
 * We took a sample of 100 cards from the dataframe before uploading it MongoDB.
-* Some issues we faced during this stage was that the dataframe was to large to upload into MongoDB. We decided to take sample of the dataframe and then created a loop to add a card one by one into the database.
+* Some issues we faced during this stage was that the dataframe was to large to upload into MongoDB. Dan took sample of the dataframe and then created a loop to add a card one by one into the database.
 
 ### Results
 The outcome of the project created a database containing a sample of our larger dataframe. We have information of over 67,000 cards but in the database only 100. This is because of hardware limitations. However our purpose for this project is for anyone to be able to find completed card sets efficently and our dataframe accomplishes this. With the information in our dataframe anyone can input completed card sets into [TCGplayer](https://www.tcgplayer.com/massentry?_gl=1%2aolor6j%2a_gcl_aw%2aR0NMLjE2NTQ1NTU0NDguQ2p3S0NBand5X2FVQmhBQ0Vpd0EySUhIUUhub0RqeTBVbld0WW8zX1hkQ1N6ZXIwYmZWeThLLWp5Z3gwU2J1ejc4SFE3VjNoYU1waDNCb0N6RUFRQXZEX0J3RQ)
